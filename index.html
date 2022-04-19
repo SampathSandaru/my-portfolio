@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sampath</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style/lightbox.min.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("user_s3ihSH3fh1gs32bSg8UNn");
+        })();
+    </script>
+</head>
+
+<body>
+    <div class="header_bar">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
+
+
+    <header class="header">
+        <h1 class="h1">Sampath Sandaruwan</h1>
+        <div class="navbar">
+            <a href="#home" class="nav-link active">home</a>
+            <a href="#about" class="nav-link ">About</a>
+            <a href="#skill" class="nav-link ">Skill</a>
+            <a href="#project" class="nav-link ">Project</a>
+            <a href="#review" class="nav-link ">Review</a>
+            <a href="#contact" class="nav-link ">contact</a>
+            <div class="fas fa-moon" id="theam-btn"></div>
+            <!-- <div class="fas fa-bars" id="bars"></div> -->
+        </div>
+        <div class="fas fa-bars" id="manu-btn"></div>
+    </header>
+
+
+    <div class="container" id="blur">
+        <section class="home" id="home">
+            <div class="content" data-aos="fade-right">
+                <span>HEY THERE !</span>
+                <h1>SAMPATH SANDARUWAN</h1>
+                <span>
+                    I'm an undergraduate student of the University of Ruhuna in Sri Lanka
+                </span>
+                <span>
+                </span>
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/sampath-sandaruwan-83a8b61aa/" target="_blanck"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="" target="_blanck"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://api.whatsapp.com/send/?phone=+940763304183&text=I%27m+interested+in+your+car+for+sale&app_absent=0&lang=en"
+                        target="_blanck"><i class="fab fa-whatsapp"></i></a>
+                    <a href="" target="_blanck"><i class="fab fa-twitter"></i></a>
+                    <a href="mailto:lahirusampath8899@gmail.com" target="_blanck"><i
+                            class="far fa-envelope-open"></i></a>
+                    <a href="https://github.com/SampathSandaru" target="_blanck"><i class="fab fa-github"></i></a>
+                    <a href="callto:0763304183" target="_blanck"><i class="fas fa-phone-volume"></i></a>
+                </div>
+                <div class="">
+                    <a href="#about"><button type="button">About me</button></a>
+                </div>
+            </div>
+            <div class="image" data-aos="fade-left">
+                <img src="image/sh1.png" alt="">
+                <div class="my-img">
+                    <img src="image/me.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-title" data-aos="fade-right">
+                <h1 class="h1"> <span> LEARN MORE ABOUT ME </span></h1>
+            </div>
+            <div class="about-me">
+                <div class="my-img-box" data-aos="fade-right">
+                    <img src="image/sampath.jpg" class="my-img">
+                </div>
+                <div class="info" data-aos="fade-left">
+                    <p>I am a self-motivated,fast learning person who is with a passion of self-learning and have the
+                        ability of work in a busy environment and produce high standards of work and currently as an
+                        undergraduate at the University of Ruhuna Sri Lanka reading for Bachelor of information
+                        communication technology degree and have learned and experienced different programming
+                        languages. currently, following about ReactJs and Android mobile development, Computer network
+                        security, Quality assurance, and Data mining to achieve my goal to be a software engineer.</p>
+
+                    <div class="item">
+                        <div>
+                            <i class="fas fa-angle-double-right"></i> Name : <b>A M Lahiru Sampath Sandaruwan</b>
+                        </div>
+                        <div>
+                            <i class="fas fa-angle-double-right"></i> Gender : <b>Male</b>
+                        </div>
+                        <div>
+                            <i class="fas fa-angle-double-right"></i> DOB : <b>January 25, 1998</b>
+                        </div>
+                        <div>
+                            <i class="fas fa-angle-double-right"></i> Age: <b id="age"></b>
+                        </div>
+                        <div>
+                            <i class="fas fa-angle-double-right"></i> Email: <b>amsampathsandaruwan@gmail.com</b>
+                        </div>
+                        <div>
+                            <i class="fas fa-angle-double-right"></i> Phone: <b>+9476 330 4183</b>
+                        </div>
+                        <div>
+                            <i class="fas fa-angle-double-right"></i> Address : <b>
+                                No 80, Rathmale Estate, Pangolla, Ibbagamuwa</b>
+                        </div>
+                        <div>
+                            <i class="fas fa-angle-double-right"></i> Marital status : <b>Single</b></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tech_skill_section" id="skill">
+            <h1 class="h1" data-aos="fade-right"> <span>TECHNICAL SKILLS</span></h1>
+            <div class="tech_skill">
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> Node js</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> React js</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> MongoDB</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> MERN</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> Angular</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> Flutter</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> Firebase</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> AJAX</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> Spring Boot</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> Laravel</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> CodeIgniter</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> Hibernate</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> jQuery</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> Bootstrap</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> HTML</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> CSS</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> JavaScript</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> C</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> PHP</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> Java</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> Perl</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> Selenium</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> MySQL</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> Python</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> Model-View-Controller
+                    (MVC)</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> Postman</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> Android Studio</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> GitHub</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> Microsoft Project</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> Microsoft Office</div>
+                <div class="item" data-aos="zoom-in"><i class="fas fa-angle-double-right"></i> Linux</div>
+
+            </div>
+        </section>
+
+        <section class="certificate_courses_section">
+            <h1 class="h1" data-aos="fade-right"> <span>Certificate Courses</span></h1>
+            <div class="certificate_courses">
+                <div class="item" data-aos="zoom-in">
+                    <div class="certificate_details">
+                        <img src="image/certificate.png" alt="">
+                        <div class="cetificate-thumbnail">
+                            <img src="image/Certificate/M001_proof_of_completion.jpg" alt="">
+                        </div>
+                        <samp><b> MONGODB BASICS</b></samp>
+                        <span class="open_popup">
+                            <!-- <i class="fas fa-link"></i> -->
+                            see certificate
+                        </span>
+                        <a href="https://university.mongodb.com/course_completion/3edbb381-43cb-4ad5-933d-ceccc81c7113?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing"
+                            target="_blanck"><i class="fas fa-link"></i> <i>see oraginal certificate</i></a>
+                    </div>
+                    <div class="footer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                            <path fill="#0099ff" fill-opacity="1"
+                                d="M0,128L60,154.7C120,181,240,235,360,261.3C480,288,600,288,720,272C840,256,960,224,1080,224C1200,224,1320,256,1380,272L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320L0,320Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="item" data-aos="zoom-in">
+                    <div class="certificate_details">
+                        <img src="image/certificate.png" alt="">
+                        <div class="cetificate-thumbnail">
+                            <img src="image/Certificate/css.jpg" alt="">
+                        </div>
+                        <samp><b>CSS</b></samp>
+                        <span class="open_popup">
+                            <!-- <i class="fas fa-link"></i> -->
+                            see certificate
+                        </span>
+                        <a href="https://www.sololearn.com/Certificate/1023-7164502/jpg" target="_blanck"><i
+                                class="fas fa-link"></i> <i>see oraginal certificate</i></a>
+                    </div>
+                    <div class="footer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                            <path fill="#0099ff" fill-opacity="1"
+                                d="M0,128L60,154.7C120,181,240,235,360,261.3C480,288,600,288,720,272C840,256,960,224,1080,224C1200,224,1320,256,1380,272L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="item" data-aos="zoom-in">
+                    <div class="certificate_details">
+                        <img src="image/certificate.png" alt="">
+                        <div class="cetificate-thumbnail">
+                            <img src="image/Certificate/html.jpg" alt="">
+                        </div>
+                        <samp><b> HTML</b></samp>
+                        <span class="open_popup">
+                            <!-- <i class="fas fa-link"></i> -->
+                            see certificate
+                        </span>
+                        <a href="https://www.sololearn.com/Certificate/1014-7164502/jpg" target="_blanck"><i
+                                class="fas fa-link"></i> <i>see oraginal certificate</i></a>
+                    </div>
+                    <div class="footer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                            <path fill="#0099ff" fill-opacity="1"
+                                d="M0,128L60,154.7C120,181,240,235,360,261.3C480,288,600,288,720,272C840,256,960,224,1080,224C1200,224,1320,256,1380,272L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="item" data-aos="zoom-in">
+                    <div class="certificate_details">
+                        <img src="image/certificate.png" alt="">
+                        <div class="cetificate-thumbnail">
+                            <img src="image/Certificate/IDEALIZE Participation Certificate - A. M. Lahiru Sampath Sandaruwan[1893].jpg"
+                                alt="">
+                        </div>
+                        <samp><b> IDEALIZE</b></samp>
+                        <span class="open_popup">
+                            <!-- <i class="fas fa-link"></i> -->
+                            see certificate
+                        </span>
+                        <!-- <a href="#"><i class="fas fa-link"></i> <i>see oraginal certificate</i></a> -->.
+                    </div>
+                    <div class="footer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                            <path fill="#0099ff" fill-opacity="1"
+                                d="M0,128L60,154.7C120,181,240,235,360,261.3C480,288,600,288,720,272C840,256,960,224,1080,224C1200,224,1320,256,1380,272L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="item" data-aos="zoom-in">
+                    <div class="certificate_details">
+                        <img src="image/certificate.png" alt="">
+                        <div class="cetificate-thumbnail">
+                            <img src="image/Certificate/php.jpg" alt="">
+                        </div>
+                        <samp><b> PHP</b></samp>
+                        <span class="open_popup">
+                            <!-- <i class="fas fa-link"></i> -->
+                            see certificate
+                        </span>
+                        <a href="https://www.sololearn.com/Certificate/1059-7164502/jpg" target="_blanck"><i
+                                class="fas fa-link"></i> <i>see oraginal certificate</i></a>
+                    </div>
+                    <div class="footer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                            <path fill="#0099ff" fill-opacity="1"
+                                d="M0,128L60,154.7C120,181,240,235,360,261.3C480,288,600,288,720,272C840,256,960,224,1080,224C1200,224,1320,256,1380,272L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="item" data-aos="zoom-in">
+                    <div class="certificate_details">
+                        <img src="image/certificate.png" alt="">
+                        <div class="cetificate-thumbnail">
+                            <img src="image/Certificate/Nextgen GiT-IOT Hachathon 2020.jpg" alt="">
+                        </div>
+                        <samp><b> Nextgen GiT-IOT Hachathon 2020</b></samp>
+                        <span class="open_popup">
+                            <!-- <i class="fas fa-link"></i> -->
+                            see certificate
+                        </span>
+                        <!-- <a href="#"><i class="fas fa-link"></i> <i>see oraginal certificate</i></a> -->.
+                    </div>
+                    <div class="footer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                            <path fill="#0099ff" fill-opacity="1"
+                                d="M0,128L60,154.7C120,181,240,235,360,261.3C480,288,600,288,720,272C840,256,960,224,1080,224C1200,224,1320,256,1380,272L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="item" data-aos="zoom-in">
+                    <div class="certificate_details">
+                        <img src="image/certificate.png" alt="">
+                        <div class="cetificate-thumbnail">
+                            <img src="image/Certificate/UC-9af319fc-fc85-4deb-bd9b-be49fd3310c1.jpg" alt="">
+                        </div>
+                        <samp><b> NODE, Express, React, MySQL</b></samp>
+                        <span class="open_popup">
+                            <!-- <i class="fas fa-link"></i> -->
+                            see certificate
+                        </span>
+                        <a href="https://www.udemy.com/certificate/UC-9af319fc-fc85-4deb-bd9b-be49fd3310c1/"
+                            target="_blanck"><i class="fas fa-link"></i> <i>see oraginal certificatenk</i></a>
+                    </div>
+                    <div class="footer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                            <path fill="#0099ff" fill-opacity="1"
+                                d="M0,128L60,154.7C120,181,240,235,360,261.3C480,288,600,288,720,272C840,256,960,224,1080,224C1200,224,1320,256,1380,272L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="item" data-aos="zoom-in">
+                    <div class="certificate_details">
+                        <img src="image/certificate.png" alt="">
+                        <div class="cetificate-thumbnail">
+                            <img src="image/Certificate/UC-900ef3e0-9ca3-4af6-b340-e13f11cefb18.jpg" alt="">
+                        </div>
+                        <samp><b> JavaScript</b></samp>
+                        <span class="open_popup">
+                            <!-- <i class="fas fa-link"></i> -->
+                            see certificate
+                        </span>
+                        <a href="https://www.udemy.com/certificate/UC-900ef3e0-9ca3-4af6-b340-e13f11cefb18/"
+                            target="_blanck"><i class="fas fa-link"></i> <i>see oraginal certificate</i></a>
+                    </div>
+                    <div class="footer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                            <path fill="#0099ff" fill-opacity="1"
+                                d="M0,128L60,154.7C120,181,240,235,360,261.3C480,288,600,288,720,272C840,256,960,224,1080,224C1200,224,1320,256,1380,272L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="item" data-aos="zoom-in">
+                    <div class="certificate_details">
+                        <img src="image/certificate.png" alt="">
+                        <div class="cetificate-thumbnail">
+                            <img src="image/Certificate/UC-b6b685d0-fbf3-4126-af35-b3d37139527a.jpg" alt="">
+                        </div>
+                        <samp><b>NodeJs Rest API</b></samp>
+                        <span class="open_popup">
+                            <!-- <i class="fas fa-link"></i> -->
+                            see certificate
+                        </span>
+                        <a href="https://www.udemy.com/certificate/UC-b6b685d0-fbf3-4126-af35-b3d37139527a/"
+                            target="_blanck"><i class="fas fa-link"></i> <i>see oraginal certificate</i></a>
+                    </div>
+                    <div class="footer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                            <path fill="#0099ff" fill-opacity="1"
+                                d="M0,128L60,154.7C120,181,240,235,360,261.3C480,288,600,288,720,272C840,256,960,224,1080,224C1200,224,1320,256,1380,272L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="item" data-aos="zoom-in">
+                    <div class="certificate_details">
+                        <img src="image/certificate.png" alt="">
+                        <div class="cetificate-thumbnail">
+                            <img src="image/Certificate/thinkwave.jpg" alt="">
+                        </div>
+                        <samp><b>Thinkwave 2.0</b></samp>
+                        <span class="open_popup">
+                            <!-- <i class="fas fa-link"></i> -->
+                            see certificate
+                        </span>
+                        <!-- <a href="#"><i class="fas fa-link"></i> <i>see oraginal certificate</i></a> -->.
+                    </div>
+                    <div class="footer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                            <path fill="#0099ff" fill-opacity="1"
+                                d="M0,128L60,154.7C120,181,240,235,360,261.3C480,288,600,288,720,272C840,256,960,224,1080,224C1200,224,1320,256,1380,272L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="item" data-aos="zoom-in">
+                    <div class="certificate_details">
+                        <img src="image/certificate.png" alt="">
+                        <div class="cetificate-thumbnail">
+                            <img src="image/Certificate/PERA Inventer 2020.jpg" alt="">
+                        </div>
+                        <samp><b> PERA Inventer 2020</b></samp>
+                        <span class="open_popup">
+                            <!-- <i class="fas fa-link"></i> -->
+                            see certificate
+                        </span>
+                        <!-- <a href="#"><i class="fas fa-link"></i> <i>see oraginal certificate</i></a> -->.
+                    </div>
+                    <div class="footer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                            <path fill="#0099ff" fill-opacity="1"
+                                d="M0,128L60,154.7C120,181,240,235,360,261.3C480,288,600,288,720,272C840,256,960,224,1080,224C1200,224,1320,256,1380,272L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="item" data-aos="zoom-in">
+                    <div class="certificate_details">
+                        <img src="image/certificate.png" alt="">
+                        <div class="cetificate-thumbnail">
+                            <img src="image/Certificate/Azure Worshop.jpg" alt="">
+                        </div>
+                        <samp><b> Azure Workshop</b></samp>
+                        <span class="open_popup">
+                            <!-- <i class="fas fa-link"></i> -->
+                            see certificate
+                        </span>
+                        <!-- <a href="#"><i class="fas fa-link"></i> <i>see oraginal certificate</i></a> -->.
+                    </div>
+                    <div class="footer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                            <path fill="#0099ff" fill-opacity="1"
+                                d="M0,128L60,154.7C120,181,240,235,360,261.3C480,288,600,288,720,272C840,256,960,224,1080,224C1200,224,1320,256,1380,272L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project_section" id="project" data-aos="fade-right">
+            <h1 class="h1"> <span>PROJECT</span></h1>
+            <!-- <input type="radio" id="all" name="radioBtn" checked>
+            <input type="radio" id="web" name="radioBtn">
+            <input type="radio" id="stand_alone" name="radioBtn">
+            <input type="radio" id="android" name="radioBtn">
+            <label for="all" class="all tag">All</label>
+            <label for="web" class="web tag">Web</label>
+            <label for="stand_alone" class="stand_alone tag">Stand Alone</label>
+            <label for="android" class="android tag">Android</label> -->
+
+            <div class="project">
+                <div class="project_item " data-aos="zoom-in">
+                    <div class="img_box">
+                        <a href="image/project/work-1.jpg" data-lightbox="example-set" class="example-image-link">
+                            <img src="./image/project/work-1.jpg" class="example-image">
+                            <div class="hover_box"></div>
+                        </a>
+                    </div>
+                    <div class="project_detail">
+                        <div class="sub_images">
+                            <div class="sub_img">
+                                <a href="image/project/work-1-2.jpg" data-lightbox="example-set"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-1-2.jpg" class="example-image"></a>
+                            </div>
+                            <div class="sub_img">
+                                <a href="image/project/work-1-3.jpg" data-lightbox="example-set"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-1-3.jpg"></a>
+                            </div>
+                            <div class="sub_img">
+                                <a href="image/project/work-1-4.jpg" data-lightbox="example-set"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-1-4.jpg"></a>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <span>
+                                <i class="fas fa-info-circle"></i>
+                                This is a web-based application and it was developed for products exporting company to
+                                introduce themselves.
+                            </span>
+                            <span>
+                                <i class="fas fa-link"></i>
+                                <a href="https://vgreenexpo.com/" target="_blanck">V-Greenexpo</a>
+                            </span>
+                            <span>
+                                <i class="fas fa-code"></i>
+                                CodeIgniter, CSS, JavaScript.
+                            </span>
+                            <span>
+                                <i class="fas fa-info-circle"></i>
+                                Mar-2021
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project_item " data-aos="zoom-in">
+                    <div class="img_box">
+                        <a href="image/project/work-2.jpg" data-lightbox="example-set-2" class="example-image-link">
+                            <img src="./image/project/work-2.jpg" class="example-image">
+                            <div class="hover_box"></div>
+                        </a>
+                    </div>
+                    <div class="project_detail">
+                        <div class="sub_images">
+                            <div class="sub_img">
+                                <a href="image/project/work-2-2.jpg" data-lightbox="example-set-2"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-2-2.jpg"></a>
+                            </div>
+                            <div class="sub_img">
+                                <a href="image/project/work-2-3.jpg" data-lightbox="example-set-2"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-2-3.jpg"></a>
+                            </div>
+                            <div class="sub_img">
+                                <a href="image/project/work-2-4.jpg" data-lightbox="example-set-2"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-2-4.jpg"></a>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <span>
+                                <i class="fas fa-info-circle"></i>
+                                Website for advertising Company.
+                            </span>
+                            <span>
+                                <i class="fas fa-link"></i>
+                                <a href="https://livemart.lk/" target="_blanck">LiveMart</a>
+                            </span>
+                            <span>
+                                <i class="fas fa-code"></i>
+                                Laravel, CSS, Bootstrap, JavaScript, Google Charts,SMS Gateway,Jquery.
+                            </span>
+                            <span>
+                                <i class="fas fa-info-circle"></i>
+                                May-2021
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project_item" data-aos="zoom-in">
+                    <div class="img_box">
+                        <a href="image/project/work-3.jpg" data-lightbox="example-set-3" class="example-image-link">
+                            <img src="./image/project/work-3.jpg">
+                            <div class="hover_box"></div>
+                        </a>
+                    </div>
+                    <div class="project_detail">
+                        <div class="sub_images">
+                            <div class="sub_img">
+                                <a href="image/project/work-3-2.jpg" data-lightbox="example-set-3"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-3-2.jpg"></a>
+                            </div>
+                            <div class="sub_img">
+                                <a href="image/project/work-3-3.jpg" data-lightbox="example-set-3"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-3-3.jpg"></a>
+                            </div>
+                            <div class="sub_img">
+                                <a href="image/project/work-3-4.jpg" data-lightbox="example-set-3"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-3-4.jpg"></a>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <span>
+                                <i class="fas fa-info-circle"></i>
+                                E-learning web based application.
+                            </span>
+                            <span>
+                                <i class="fas fa-link"></i>
+                                <a href="https://slet.lk/" target="_blanck">SLET</a>
+                            </span>
+                            <span>
+                                <i class="fas fa-code"></i>
+                                Laravel, CSS, Bootstrap, JavaScript, Jquery, AJAX.
+                            </span>
+                            <span>
+                                <i class="fas fa-info-circle"></i>
+                                July-2021
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project_item " data-aos="zoom-in">
+                    <div class="img_box">
+                        <a href="image/project/work-4.jpg" data-lightbox="example-set-4" class="example-image-link">
+                            <img src="./image/project/work-4.jpg">
+                            <div class="hover_box"></div>
+                        </a>
+                    </div>
+                    <div class="project_detail">
+                        <div class="sub_images">
+                            <div class="sub_img">
+                                <a href="image/project/work-4-2.jpg" data-lightbox="example-set-4"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-4-2.jpg"></a>
+                            </div>
+                            <div class="sub_img">
+                                <a href="image/project/work-4-3.jpg" data-lightbox="example-set-4"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-4-3.jpg"></a>
+                            </div>
+                            <div class="sub_img">
+                                <a href="image/project/work-4-4.jpg" data-lightbox="example-set-4"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-4-4.jpg"></a>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <span>
+                                <i class="fas fa-info-circle"></i>
+                                This web application was developed as a group project during the third year of BICT
+                                studies according to the mini-project of the Advanced Java course.
+                            </span>
+                            <span>
+                                <i class="fas fa-link"></i>
+                                <a href="https://abhayacar.000webhostapp.com/" target="_blanck">Abhaya Car</a>
+                            </span>
+                            <span>
+                                <i class="fas fa-code"></i>
+                                Codeigniter, PHP, Bootstrap, CSS, Js.
+                            </span>
+                            <span>
+                                <i class="fas fa-info-circle"></i>
+                                Des-2020
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project_item " data-aos="zoom-in">
+                    <div class="img_box">
+                        <a href="image/project/work-5.png" data-lightbox="example-set-5" class="example-image-link">
+                            <img src="./image/project/work-5.png">
+                            <div class="hover_box"></div>
+                        </a>
+                    </div>
+                    <div class="project_detail">
+                        <div class="sub_images">
+                            <div class="sub_img">
+                                <a href="image/project/work-5-2.png" data-lightbox="example-set-5"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-5-2.png"></a>
+                            </div>
+                            <div class="sub_img">
+                                <a href="image/project/work-5-3.png" data-lightbox="example-set-5"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-5-3.png"></a>
+                            </div>
+                            <div class="sub_img">
+                                <a href="image/project/work-5-4.png" data-lightbox="example-set-5"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-5-4.png"></a>
+
+                                <a href="image/project/work-5-5.png" data-lightbox="example-set-5"
+                                    class="example-image-link" style="display: none;">
+                                    <img src="./image/project/work-5-5.png"></a>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <span>
+                                <i class="fas fa-info-circle"></i>
+                                Java RMI Chat application with Hibernate CRUD.
+                            </span>
+                            <span>
+                                <i class="fas fa-info-circle"></i>
+                                Chat app
+                            </span>
+                            <span>
+                                <i class="fas fa-code"></i>
+                                Java, MySql, RMI.
+                            </span>
+                            <span>
+                                <i class="fas fa-info-circle"></i>
+                                Des-2020
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project_item " data-aos="zoom-in">
+                    <div class="img_box">
+                        <a href="image/project/work-6.png" data-lightbox="example-set-6" class="example-image-link">
+                            <img src="./image/project/work-6.png">
+                            <div class="hover_box"></div>
+                        </a>
+                    </div>
+                    <div class="project_detail">
+                        <div class="sub_images">
+                            <div class="sub_img">
+                                <a href="image/project/work-6-2.png" data-lightbox="example-set-6"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-6-2.png"></a>
+                            </div>
+                            <div class="sub_img">
+                                <a href="image/project/work-6-3.png" data-lightbox="example-set-6"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-6-3.png"></a>
+                            </div>
+                            <div class="sub_img">
+                                <a href="image/project/work-6-4.png" data-lightbox="example-set-6"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-6-4.png"></a>
+                                <a href="image/project/work-6-5.png" data-lightbox="example-set-6"
+                                    style="display: none;" class="example-image-link">
+                                    <img src="./image/project/work-6-5.png"></a>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <span>
+                                <i class="fas fa-info-circle"></i>
+                                Rushcoder v2.0 2020 finals and became Second Runners up. As a team, we built a
+                                fingerprint-based voting system.
+                            </span>
+                            <span>
+                                <i class="fas fa-link"></i>
+                                <a href="https://github.com/MadushanSandaru1/Fingerprint-Voting-System"
+                                    target="_blanck">Fingerprint-Voting-System</a>
+                            </span>
+                            <span>
+                                <i class="fas fa-code"></i>
+                                PHP, Bootstrap, CSS, javascript, jQuery, MySQL, Google Charts, Gmail SMTP
+                            </span>
+                            <span>
+                                <i class="fas fa-info-circle"></i>
+                                Jan-2020
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project_item " data-aos="zoom-in">
+                    <div class="img_box">
+                        <a href="image/project/work-7.jpg" data-lightbox="example-set-7" class="example-image-link">
+                            <img src="./image/project/work-7.jpg">
+                            <div class="hover_box"></div>
+                        </a>
+                    </div>
+                    <div class="project_detail">
+                        <div class="sub_images">
+                            <div class="sub_img">
+                                <a href="image/project/work-7-2.jpg" data-lightbox="example-set-7"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-7-2.jpg"></a>
+                            </div>
+                            <div class="sub_img">
+                                <a href="image/project/work-7-3.jpg" data-lightbox="example-set-7"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-7-3.jpg"></a>
+                            </div>
+                            <div class="sub_img">
+                                <a href="image/project/work-7-4.jpg" data-lightbox="example-set-7"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-7-4.jpg"></a>
+                                <a href="image/project/work-7-5.jpg" data-lightbox="example-set-7"
+                                    style="display: none;" class="example-image-link">
+                                    <img src="./image/project/work-7-5.jpg"></a>
+                                <a href="image/project/work-7-6.jpg" data-lightbox="example-set-7"
+                                    style="display: none;" class="example-image-link">
+                                    <img src="./image/project/work-7-6.jpg"></a>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <span style="margin-bottom: 1rem;">
+                                <i class="fas fa-info-circle"></i>
+                                As a team we created a website of Canteen Management System for Faculty of Technology,
+                                University of Ruhuna. We created this as a project in the third year of studying BICT
+                                under the Advanced Database Management Systems course.
+                            </span>
+                            <span style="margin-bottom: 1rem;">
+                                <i class="fas fa-link"></i>
+                                <a href="https://github.com/SampathSandaru/Canteen_Management_System"
+                                    target="_blanck">Canteen Management System</a>
+                            </span>
+                            <span>
+                                <i class="fas fa-code"></i>
+                                Spring Boot, MySQL(Procedures, Functions, Triggers, Events), HTML 5, Bootstrap 5, CSS,
+                                Js
+                            </span>
+                            <span style="margin-top: 1rem;">
+                                <i class="fas fa-info-circle"></i>
+                                May-2021
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project_item " data-aos="zoom-in">
+                    <div class="img_box">
+                        <a href="image/project/work-8.jpg" data-lightbox="example-set-8" class="example-image-link">
+                            <img src="./image/project/work-8.jpg">
+                            <div class="hover_box"></div>
+                        </a>
+                    </div>
+                    <div class="project_detail">
+                        <div class="sub_images">
+                            <div class="sub_img">
+                                <a href="image/project/work-8-2.jpg" data-lightbox="example-set-8"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-8-2.jpg"></a>
+                            </div>
+                            <div class="sub_img">
+                                <a href="image/project/work-8-3.jpg" data-lightbox="example-set-8"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-8-3.jpg"></a>
+                            </div>
+                            <div class="sub_img">
+                                <a href="image/project/work-8-4.jpg" data-lightbox="example-set-8"
+                                    class="example-image-link">
+                                    <img src="./image/project/work-8-4.jpg"></a>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <span>
+                                <i class="fas fa-info-circle"></i>
+                                Blog
+                            </span>
+                            <span>
+                                <i class="fas fa-code"></i>
+                                ReactJs, NodeJs, Express, MongoDB, CSS.
+                            </span>
+                            <span>
+                                <i class="fas fa-info-circle"></i>
+                                Sep-2021
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="review" id="review" style="height: 50rem;">
+            <h1 class="h1" data-aos="zoom-out"> <span>TESTIMONIALS</span></h1>
+            <div class="swiper mySwiper review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide" data-aos="zoom-in">
+
+                        <h3>Ms.Waruni Hawage</h3>
+                        <p><i class="fas fa-quote-left"></i>
+                            Sampath is a hard working individual and I personally know him as a well composed student
+                            since I worked as a lecturer, University of Ruhuna. He has a good knowledge in ICT related
+                            subjects and excellent in team working. He has an admirable personality with knowledge,
+                            skills and attitude. He has the capacity to achieve tasks assigned to him successfully and I
+                            can recommend him to any ICT related organization.<i class="fas fa-quote-right"></i>
+                        </p>
+                        <div class="review_owner">
+                            <div>Ms.Waruni Hewage</div>
+                            <div>
+                                Teaching Assistant at Auckland University of Technology
+                            </div>
+                        </div>
+                        <div class="img_box">
+                            <img src="./image/review/1604881389093.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide" data-aos="zoom-in">
+                        <div class="img_box">
+                            <img src="./image/review/1628242274841.jpg" alt="">
+                        </div>
+                        <h3>Ms.Dinithi Vithanage</h3>
+                        <p><i class="fas fa-quote-left"></i>I have known Mr.Sampath Sandaruwan for the past two years,
+                            having served as his Information
+                            Technology Lecturer. I believe Mr.Sampath would be an excellent addition to University of
+                            Ruhuna. While a student at Faculty of Technology, University of Ruhuna, Mr. Sampath has
+                            always challenged himself academically. He is an active participant in class discussions and
+                            material quickly. Further, he has superb programming skills that are a pleasure for any IT
+                            lecturer to encounter. He is an extremely responsible; not only is he accountable for every
+                            group activity. Therefore, I am extremely impressed by Mr. Sampath's organizational skills.
+                            Mr. Sampath is an organized, intelligent, and capable young man who would be an excellent
+                            addition to any organization. I highly recommend Mr. Sampath as he will make an excellent
+                            addition to the IT industry including any company or academic institution<i
+                                class="fas fa-quote-right"></i>
+                        </p>
+                        <div class="review_owner">
+                            <div>Ms.Dinithi Vithanage</div>
+                            <div>
+                                Lecturer (Probationary) at Department of ICT, Faculty of Technology, University of
+                                Ruhuna
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide" data-aos="zoom-in">
+                        <div class="img_box">
+                            <img src="./image/review/1624366856127.jpg" alt="">
+                        </div>
+                        <h3>Ms.Anupama Ranasinghe</h3>
+                        <p><i class="fas fa-quote-left"></i>
+                            It's my pleasure to recommend Sampath Sandaruwan as a former demonstrator at dept. of ICT,
+                            faculty of Technology, University of Ruhuna. Sampath sandaruwan is reading for the
+                            bachelor's degree at department of ICT,faculty of Technology, University of Ruhuna. He has
+                            an excessive knowledge on Information Technology. I was impressed with Sampath's performance
+                            as a student at practical laboratory sessions. He's quite motivated and devoted student at
+                            the faculty. Also, I'd like to recommend here his high potential capacity on Java, PhP,
+                            Mysql, Java script and frameworks(Spring boot, Codignaiter, Laravel, Flutter). He has
+                            already worked on some successful IT projects. Sampath is very keen to learn new things and
+                            thus he is a good explorer. I'd like to say that Sampath is a disciplined student and I wish
+                            him a successful career.<i class="fas fa-quote-right"></i>
+                        </p>
+                        <div class="review_owner">
+                            <div>Ms.Anupama Ranasinghe</div>
+                            <div>
+                                Trainee Graduate (Teaching) Jinaraja Boys' National College
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide" data-aos="zoom-in">
+                        <div class="img_box">
+                            <img src="./image/review/1627401163356.jpg" alt="">
+                        </div>
+                        <h3>Ms.Iromi Paranavithana</h3>
+                        <p><i class="fas fa-quote-left"></i>
+                            Sampath is a very passionate person whom I have taught for the past two years at the
+                            University of Ruhuna, Sri Lanka. He is determined and inquisitive and uses his thinking and
+                            programming knowledge to the best of his ability. I could always count on his skills in
+                            coding to bring the best of uses of resources in group projects assigned to him. I would
+                            confidently recommend Sampath Sandaruwan to any company<i class="fas fa-quote-right"></i>
+                        </p>
+                        <div class="review_owner">
+                            <div>Ms.Iromi Paranavithana</div>
+                            <div>
+                                Lecturer (Probationary) at Department of ICT, Faculty of Technology, University of
+                                Ruhuna
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide" data-aos="zoom-in">
+                        <div class="img_box">
+                            <img src="./image/review/1517497101165.jpg" alt="">
+                        </div>
+                        <h3>Ms.Hansila Subasinghe</h3>
+                        <p>
+                            <i class="fas fa-quote-left"></i>
+                            I know sampath sandaruwan as an undergraduate student at the University of Ruhuna, Faculty
+                            of Technology, when I was working as a lecturer. He has a good understanding of ICT subjects
+                            and is keen to gain knowledge both theoretical and practical. And also self motivated and
+                            pleasant personality.I wish him good luck and like to recommend him to the ICT industry for
+                            giving him an opportunity.
+                            <i class="fas fa-quote-right"></i>
+                        </p>
+                        <div class="review_owner">
+                            <div>Ms.Hansila Subasinghe</div>
+                            <div>
+                                Lecturer (Probationary) at Department of ICT, Faculty of Technology, University of
+                                Ruhuna
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide" data-aos="zoom-in">
+                        <div class="img_box">
+                            <img src="./image/review/1612718083163.jpg" alt="">
+                        </div>
+                        <h3>Ms.Charuni Buddhika</h3>
+                        <p><i class="fas fa-quote-left"></i>
+                            Sampath is a very talented student in his subject and he is interested in finding new things
+                            and learning them. And he already developed some websites and host them too. He acted very
+                            logically in problematic situations. When I examined Sampath, I found him as a good explorer
+                            who is very interested in finding new things and studying the subject very extensively.
+                            I would highly recommend him in IT industry as a person who guided him in practical lab
+                            sessions.<i class="fas fa-quote-right"></i>
+                        </p>
+                        <div class="review_owner">
+                            <div>Ms.Charuni Buddhika</div>
+                            <div>
+                                IT Instructor at National Youth Corps
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+
+        <section class="contact_section" id="contact" data-aos="zoom-in-up">
+            <h1 class="h1"> <span>CONTACT</span></h1>
+            <div class="contact">
+                <div class="contact_me">
+                    <div class="contact_item">
+                        <i class="fas fa-phone-volume i"></i>
+                        <span>+9476 330 4183</span>
+                    </div>
+                    <div class="contact_item">
+                        <i class="far fa-envelope i"></i>
+                        <span>amsampathsandaruwan@gmail.com</span>
+                    </div>
+                    <div class="contact_item ">
+                        <i class="fas fa-search-location i"></i>
+                        <span>No 80, Rathmale Estate, Pangolla, Ibbagamuwa.</span>
+                    </div>
+                    <div class="contact_item">
+                        <i class="fas fa-link i"></i>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/sampath-sandaruwan-83a8b61aa/" target="_blanck"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                            <a href="" target="_blanck"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://api.whatsapp.com/send/?phone=+940763304183&text=I%27m+interested+in+your+car+for+sale&app_absent=0&lang=en"
+                                target="_blanck"><i class="fab fa-whatsapp"></i></a>
+                            <a href="" target="_blanck"><i class="fab fa-twitter"></i></a>
+                            <a href="mailto:lahirusampath8899@gmail.com" target="_blanck"><i
+                                    class="far fa-envelope-open"></i></a>
+                            <a href="https://github.com/SampathSandaru" target="_blanck"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="callto:0763304183" target="_blanck"><i class="fas fa-phone-volume"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact_form">
+
+                    <form>
+                        <input type="text" id="fromName" placeholder="Your Name" class="input" required>
+                        <input type="email" id="email" placeholder="Your Email" class="input" required>
+                        <input type="text" id="subject" placeholder="Subject" class="input subject" required>
+                        <textarea cols="30" id="msg" rows="4" placeholder="Write Your Message..." required></textarea>
+                        <button class="contact_btn" type="button" onclick="sendmail()">Send</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="top-btn" id="topbtn" onclick="topFunction()">
+        Top
+    </div>
+
+    <div class="success_msg" id="success_msg">
+        your message sent successfully.
+    </div>
+    <div id="popup">
+        <div class="section">
+            <div class="cetificate-item-thumbnail">
+                <img src="/image/Certificate/css.jpg" alt="">
+            </div>
+        </div>
+        <div onclick="toggleCertificationPopup()" class="close_btn">
+            <i class="fas fa-times"></i>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <i class="far fa-copyright"></i> Sampath Sandaruwan. All Rights Reserved
+        </div>
+    </footer>
+
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        referrerpolicy="no-referrer"></script>
+
+    <script>
+        AOS.init({
+            duration: 700,
+            delay: 300
+        });
+    </script>
+</body>
+
+</html>

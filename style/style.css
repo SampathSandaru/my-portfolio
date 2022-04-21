@@ -710,6 +710,7 @@ body {
 .review {
   margin-top: 3rem;
   position: relative;
+  /* border: 1px solid red; */
 }
 
 .review .review-slider .slide {
@@ -770,7 +771,7 @@ body {
 /**********************************************/
 
 .contact_section {
-  margin: 10rem 15rem 0 15rem;
+  margin: 0 15rem 0 15rem;
   color: var(--text-color-1);
 }
 
@@ -953,6 +954,10 @@ footer {
   }
   .header #manu-btn {
     display: block;
+  }
+
+  .review{
+    /* display: none; */
   }
   .header .navbar {
     position: absolute;

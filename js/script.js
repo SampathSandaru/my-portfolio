@@ -53,7 +53,7 @@ function toggleCertificationPopup() {
 
 var swiper = new Swiper(".swiper", {
     loop: true,
-    slidesPerView: 3,
+    slidesPerView: 1,
     spaceBetween: 30,
     speed: 1000,
     // centeredSlides: true,

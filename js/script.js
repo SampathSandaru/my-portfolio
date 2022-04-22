@@ -86,9 +86,9 @@ document.getElementById("age").innerHTML = n - 1998;
 // mail
 function sendmail(param) {
   var name = document.getElementById("fromName").value;
-  var subj = document.getElementById("subject").value;
+  var email = document.getElementById("email").value;
 
-  if (name == "" || subj == "") {
+  if (name == "" || email == "") {
       alert("Please Enter Name and Email")
   } else {
     var temParam = {
